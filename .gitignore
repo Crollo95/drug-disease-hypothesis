@@ -1,0 +1,36 @@
+# Python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual envs
+ddh_env/
+.venv/
+
+# Large biomedical data (do NOT track in git)
+data/raw/
+data/real/drugs.csv
+data/real/drug_targets.csv
+data/real/gene_disease.csv
+data/real/diseases.csv
+data/real/genes.csv
+data/real/drug_targets_mapped.csv
+data/real/drug_targets_filtered.csv
+data/real/gene_disease_filtered.csv
+data/real/ppi.csv
+data/real/gene_index.csv
+data/real/gene_distances.uint16.dat
+
+# Outputs (can be regenerated)
+outputs/
+
+# Scratch notebooks
+notebooks/Untitled*
+data/raw/Untitled.ipynb
+data/real/Untitled.ipynb
+
+# Sandbox stuff
+sandbox.py
+sandbox_csv.py
+

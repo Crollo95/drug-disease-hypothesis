@@ -1,0 +1,7 @@
+gene_id,disease_id,score
+G1,DIS1,0.8
+G2,DIS1,0.6
+G2,DIS2,0.5
+G3,DIS2,0.9
+G4,DIS3,0.7
+
