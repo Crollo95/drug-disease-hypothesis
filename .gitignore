@@ -29,6 +29,8 @@ outputs/
 notebooks/Untitled*
 data/raw/Untitled.ipynb
 data/real/Untitled.ipynb
+scripts/.ipynb_checkpoints/
+.ipynb_checkpoints/
 
 # Sandbox stuff
 sandbox.py

@@ -106,7 +106,7 @@ python -m ddh.cli csv \
   --diseases-csv data/real/diseases.csv \
   --drug-targets-csv data/real/drug_targets_filtered.csv \
   --gene-disease-csv data/real/gene_disease_filtered.csv \
-  --top-k 100000 \
+  --top-k 1000000 \
   --output-csv outputs/real_results_overlap.csv
 ```
 
@@ -119,7 +119,7 @@ python scripts/annotate_pairs_with_ppi_from_matrix.py \
   --gene-disease-csv data/real/gene_disease_filtered.csv \
   --gene-index data/real/gene_index.csv \
   --dist-matrix data/real/gene_distances.uint16.dat \
-  --max-pairs 500000 \
+  --max-pairs 100000000 \
   --chunk-size 10000 \
   --alpha 1.0 \
   --beta 1.0 \
