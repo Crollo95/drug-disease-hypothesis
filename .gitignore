@@ -1,0 +1,33 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+src/ddh.egg-info/
+
+# Virtual env / dependencies
+env/
+ddh_env/
+.venv/
+venv/
+
+# Data & outputs — ignore large data and processed results
+data/raw/
+data/real/
+outputs/
+
+# Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Sandbox stuff
+sandbox.py
+sandbox_csv.py

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddh"
+version = "0.1.0"
+description = "Local pipeline to generate drug–gene / drug–disease hypotheses."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "numpy",
+    "networkx",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

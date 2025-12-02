@@ -1,0 +1,12 @@
+# Normalize line endings for text files
+* text=auto
+# Ensure shell scripts have LF line endings
+*.sh text eol=lf
+# Optionally mark that large binary or data files should not be diffed
+# (even if accidentally committed). You can extend this if needed.
+*.dat binary
+*.parquet binary
+*.csv binary
+data/real/*.csv filter=lfs diff=lfs merge=lfs -text
+data/real/*.dat filter=lfs diff=lfs merge=lfs -text
+data/real/*.parquet filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,7 @@
+drug_id,gene_id,score
+D1,G1,0.9
+D1,G2,0.7
+D2,G2,0.8
+D2,G3,0.6
+D3,G4,0.95
+

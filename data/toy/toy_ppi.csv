@@ -1,0 +1,6 @@
+gene1_id,gene2_id,weight
+G1,G2,0.8
+G1,G3,0.6
+G2,G3,0.5
+G3,G4,0.4
+
